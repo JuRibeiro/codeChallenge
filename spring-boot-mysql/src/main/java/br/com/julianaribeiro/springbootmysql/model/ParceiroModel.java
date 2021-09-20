@@ -88,8 +88,5 @@ public class ParceiroModel {
 		return id == other.id;
 	}
 	
-	
-	
-	
 }
 
