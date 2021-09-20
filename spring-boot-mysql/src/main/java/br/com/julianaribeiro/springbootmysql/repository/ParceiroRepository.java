@@ -10,6 +10,6 @@ import br.com.julianaribeiro.springbootmysql.model.ParceiroModel;
 @Repository
 public interface ParceiroRepository extends JpaRepository<ParceiroModel, Long>{
 
-	public List<ParceiroModel> findAllByID (long id);
+	public List<ParceiroModel> findAllById (long id);
 	
 }
